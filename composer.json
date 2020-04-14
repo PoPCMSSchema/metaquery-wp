@@ -20,7 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/metaquery": "~0.1",
-        "getpop/migrate-metaquery-wp": "dev-master"
+        "getpop/migrate-metaquery-wp": "~0.1"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
