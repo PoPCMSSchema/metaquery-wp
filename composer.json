@@ -20,6 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/metaquery": "dev-master",
+        "getpop/engine-wp": "dev-master",
         "getpop/migrate-metaquery-wp": "dev-master"
     },
     "require-dev": {

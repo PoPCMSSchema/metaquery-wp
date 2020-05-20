@@ -17,6 +17,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\MetaQuery\Component::class,
+            \PoP\EngineWP\Component::class,
         ];
     }
 
