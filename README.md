@@ -20,12 +20,13 @@ Via Composer
 composer require getpop/metaquery-wp
 ```
 
-<!--
 ## Usage
 
+Initialize the component:
+
 ``` php
+\PoP\MetaQueryWP\Component::initialize();
 ```
--->
 
 ## Standards
 
