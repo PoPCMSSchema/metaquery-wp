@@ -25,7 +25,9 @@ composer require getpop/metaquery-wp
 Initialize the component:
 
 ``` php
-\PoP\MetaQueryWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\MetaQueryWP\Component::class,
+]);
 ```
 
 ## Standards
