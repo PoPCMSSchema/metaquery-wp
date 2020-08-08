@@ -1,12 +1,12 @@
 {
-    "name": "getpop/metaquery-wp",
+    "name": "pop-schema/metaquery-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Meta Query\"",
     "keywords": [
         "PoP",
         "metaquery-wp"
     ],
-    "homepage": "https://github.com/getpop/metaquery-wp",
+    "homepage": "https://github.com/pop-schema/metaquery-wp",
     "license": "MIT",
     "authors": [
         {
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/metaquery": "dev-master",
+        "pop-schema/metaquery": "dev-master",
         "getpop/engine-wp": "dev-master",
-        "getpop/migrate-metaquery-wp": "dev-master"
+        "pop-schema/migrate-metaquery-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\MetaQueryWP\\": "src"
+            "PoPSchema\\MetaQueryWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\MetaQueryWP\\": "tests"
+            "PoPSchema\\MetaQueryWP\\": "tests"
         }
     },
     "scripts": {
