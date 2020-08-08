@@ -24,7 +24,7 @@ class Component extends AbstractComponent
     public static function getDependedMigrationPlugins(): array
     {
         return [
-            'migrate-metaquery-wp',
+            'pop-schema/migrate-metaquery-wp',
         ];
     }
 }
