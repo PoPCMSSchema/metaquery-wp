@@ -16,7 +16,6 @@
     "prefer-stable": true,
     "require": {
         "php": "^8.0",
-        "pop-schema/metaquery": "^0.8",
         "getpop/engine-wp": "^0.8"
     },
     "require-dev": {
